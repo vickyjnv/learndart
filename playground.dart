@@ -32,13 +32,50 @@ import 'dart:io';
 // }
 
 ///type conversion
+// main() {
+//   //string ->int
+//   var one = int.parse('1');
+//   assert(one == 1);
+
+//   //string->double
+
+//   var onePointOne = double.parse('1.1');
+//   assert(onePointOne == 1.1);
+// }
+
+// main() {
+//   var s1 = 'single quotes work well for string literals';
+//   var s2 = "double quotes work just as well";
+//   var s3 = 'it\'s easy to escape the string delimitter';
+//   var s4 = "it's even easier to use the other delimiter";
+//   print(s1);
+//   print(s2);
+//   print(s3);
+//   print(s4);
+
+//   //raw string
+//   var s = r' in a string ,not even \n gets special treatment';
+//   print(s);
+// }
+
+//string interpolation
+
+// main() {
+//   var age = 35;
+//   var str = 'my age is : $age';
+//   print(str);
+// }
+
+//multiline string
 main() {
-  //string ->int
-  var one = int.parse('1');
-  assert(one == 1);
+  var s1 = '''
+  you can create 
+  multi line strings like this one.
+  ''';
 
-  //string->double
+  var s2 = """this is also a 
+  multi line string>""";
 
-  var onePointOne = double.parse('1.1');
-  assert(onePointOne == 1.1);
+  print(s1);
+  print(s2);
 }
