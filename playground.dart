@@ -135,3 +135,20 @@ import 'dart:io';
 //     print("odd: $i");
 //   }
 // }
+
+void main() {
+  //list 1(orderd collection of menu),mutable type
+  List<String> names = ['jack', 'jill'];
+  //names[1] = 'mark';
+
+  // copy list in an another list
+  var names2 = [...names];
+
+  names[1] = 'mark';
+  print(names[1]);
+  print(names.length);
+
+  for (var n in names2) {
+    print(n);
+  }
+}
