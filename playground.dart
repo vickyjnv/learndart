@@ -67,15 +67,71 @@ import 'dart:io';
 // }
 
 //multiline string
-main() {
-  var s1 = '''
-  you can create 
-  multi line strings like this one.
-  ''';
+// main() {
+//   var s1 = '''
+//   you can create
+//   multi line strings like this one.
+//   ''';
 
-  var s2 = """this is also a 
-  multi line string>""";
+//   var s2 = """this is also a
+//   multi line string>""";
 
-  print(s1);
-  print(s2);
-}
+//   print(s1);
+//   print(s2);
+// }
+
+// void main() {
+//   //standerd for loop
+//   for (var i = 1; i <= 10; ++i) {
+//     print(i);
+//   }
+// }
+
+// void main() {
+//   //for in loop
+
+//   var numbers = [1, 2, 3];
+
+//   for (var n in numbers) {
+//     print(n); //execute until array has some elements
+//   }
+
+//   for (var i = 0; i < numbers.length; ++i) print(numbers[i]);
+
+//   //for each loop (higher order function)
+
+//   numbers.forEach((n) => print(n));
+// }
+
+// void printNum(num) {
+//   print(num);
+// }
+
+// void main() {
+//   //while loop
+
+//   int num = 5;
+
+// while (num > 0) {
+//   print(num);
+//   num -= 1;
+// }
+//do while loop
+//   do {
+//     print(num);
+//     num -= 1;
+//   } while (num > 0);
+// }
+
+//break statement
+// for (var i = 0; i < 10; ++i) {
+//   if (i > 5) break;
+//   print(i);
+
+//printing odd num
+
+//   for (var i = 0; i < 10; ++i) {
+//     if (i % 2 == 0) continue;
+//     print("odd: $i");
+//   }
+// }
